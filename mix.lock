@@ -1,0 +1,7 @@
+%{"amnesia": {:git, "https://github.com/meh/amnesia.git", "211d98275c085a9e3049ccb8db8d29f76b3ffbfc", []},
+  "elixirplusreddit": {:git, "https://github.com/Rob-bie/ElixirPlusReddit.git", "0f9eff9de7e69dae32a897f4b2c5c21ae7db80c7", []},
+  "exquisite": {:hex, :exquisite, "0.1.7", "4106503e976f409246731b168cd76eb54262bd04f4facc5cba82c2f53982aaf0", [:mix], []},
+  "httpotion": {:hex, :httpotion, "2.1.0", "3fe84fbd13d4560c2514da656d022b1191a079178ee4992d245fc3c33c01ee18", [:mix], []},
+  "ibrowse": {:git, "https://github.com/cmullaparthi/ibrowse.git", "ea3305d21f37eced4fac290f64b068e56df7de80", [tag: "v4.1.2"]},
+  "poison": {:hex, :poison, "1.5.2", "560bdfb7449e3ddd23a096929fb9fc2122f709bcc758b2d5d5a5c7d0ea848910", [:mix], []},
+  "pqueue": {:git, "https://github.com/okeuday/pqueue.git", "dbb3b41510196e003f6c33aaa679f2250072ebe4", []}}
