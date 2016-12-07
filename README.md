@@ -1,7 +1,8 @@
 # SupercoolNameinator
 A reddit bot that "crowdsources" acronym definitions from reddit
 
-https://www.reddit.com/r/SupercoolNameinator/wiki/index
+* https://www.reddit.com/r/SupercoolNameinator/wiki/index
+* http://www.reddit.com/u/SupercoolNameinator
 
 ###The Supercool Nameinator
 is a bot that I (/u/superdisk) wrote as a way to learn Elixir/OTP. It's named after the Kids Next Door's "LUNCHBOCKS," which has a "Supercool Nameinator" program that generates phony acronyms-- for instance "BRA" -> "Battle Ready Armor."
@@ -13,7 +14,7 @@ is a bot that I (/u/superdisk) wrote as a way to learn Elixir/OTP. It's named af
 3. Simultaneously, the bot reads comments for acronyms being used (series of capital letters)
 4. If it finds one that's in the database, it comments the "definition" and reference comment from where it came.
 
-That's it. My operation of the bot lasted 2 days, until it was banned by AskReddit and had all its comments deleted.
+That's it. My operation of the bot lasted 2 days, until it was banned by AskReddit and had all its comments deleted. [Here is the fruits of its labor](http://www.reddit.com/u/SupercoolNameinator)
 
 ###Technical
 
