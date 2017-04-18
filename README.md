@@ -4,10 +4,10 @@ A reddit bot that "crowdsources" acronym definitions from reddit
 * https://www.reddit.com/r/SupercoolNameinator/wiki/index
 * http://www.reddit.com/u/SupercoolNameinator
 
-###The Supercool Nameinator
+### The Supercool Nameinator
 is a bot that I (/u/superdisk) wrote as a way to learn Elixir/OTP. It's named after the Kids Next Door's "LUNCHBOCKS," which has a "Supercool Nameinator" program that generates phony acronyms-- for instance "BRA" -> "Battle Ready Armor."
 
-###How it works:
+### How it works:
 
 1. The bot reads comments and finds people typing in Camel Case. For instance ["And Alec Baldwin"](http://reddit.com/comments/5gicrp/_/dat03ak) gets stored as "AAB"
 2. The bot stores their "definition" for an acronym in a database.
@@ -16,11 +16,11 @@ is a bot that I (/u/superdisk) wrote as a way to learn Elixir/OTP. It's named af
 
 That's it. My operation of the bot lasted 2 days, until it was banned by AskReddit and had all its comments deleted. [Here is the (heavily downvoted) fruits of its labor](http://www.reddit.com/u/SupercoolNameinator)
 
-###Technical
+### Technical
 
 The bot itself is written in Elixir, basically as a learning exercise- Huge thanks go out to Meh, Rob-Bie (for Amnesia and ElixirPlusReddit respectively) and the folks in the Elixir slack.
 
-###How to make it run
+### How to make it run
 
 1. Run `mix deps.get`
 2. Create the mnesia database with `mix amnesia.create -db Database --disk`
